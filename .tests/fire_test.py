@@ -18,4 +18,4 @@ def test_fire():
           break
       grid = update_grid
   
-  assert final_grid == grid
+  assert np.array_equal(final_grid,grid)
